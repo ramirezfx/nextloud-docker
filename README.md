@@ -15,3 +15,13 @@ Install GIT:
 Clone this repo by typing:
 
 `git clone https://github.com/ramirezfx/nextloud-docker.git`
+
+## Setup/Install nextcloud
+
+Navigate to the source-directory:
+
+`cd nextcloud-docker`
+
+Install nextcloud:
+
+`docker-compose up -d`

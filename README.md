@@ -36,8 +36,8 @@ In the console type:
 
 `docker exec --user www-data $owncloud-container-name php occ config:system:set overwriteprotocol --value=https`
 
-`docker exec --user www-data $owncloud-container-name php occ config:system:set trusted_domains 1 --value nextcloud.speedypreneur.com`
+`docker exec --user www-data $owncloud-container-name php occ config:system:set trusted_domains 1 --value your.domain.com`
 
-`docker exec --user www-data $owncloud-container-name php occ config:system:set overwrite.cli.url https://nextcloud.speedypreneur.com`
+`docker exec --user www-data $owncloud-container-name php occ config:system:set overwrite.cli.url https://your.domain.com`
 
-Replace $owncloud-container-name with your owncloud-container-name
+Replace $owncloud-container-name with your owncloud-container-name and your.domain.com with your domain.

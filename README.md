@@ -14,4 +14,4 @@ Install GIT:
 
 Clone this repo by typing:
 
-`git clone `
+`git clone https://github.com/ramirezfx/nextloud-docker.git`
